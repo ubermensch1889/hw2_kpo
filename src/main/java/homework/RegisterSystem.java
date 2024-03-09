@@ -1,6 +1,9 @@
-import dao.Dao;
-import dao.UserDao;
-import model.User;
+package homework;
+
+import homework.dao.Dao;
+import homework.dao.UserDao;
+import homework.model.User;
+import homework.model.UserRole;
 
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
@@ -13,6 +16,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.util.List;
 import java.util.Objects;
 import java.util.Base64;
 
@@ -43,7 +47,7 @@ public class RegisterSystem {
         decryptCipher.init(Cipher.DECRYPT_MODE, secretKeySpec);
     }
 
-    public boolean findUser(String name, String password) throws IllegalBlockSizeException, BadPaddingException, IOException {
+    public User findUser(String name, String password) throws IllegalBlockSizeException, BadPaddingException, IOException {
         // Проверка, зарегистрирован ли пользователь с таким логином и паролем в системе
         List<User> users = userDao.getAll();
         for (User user : users) {
@@ -51,16 +55,16 @@ public class RegisterSystem {
             String decryptedPassword = new String(decryptedPasswordBytes);
             if (Objects.equals(user.getName(), name) &&
                     Objects.equals(decryptedPassword, password)) {
-                return true;
+                return user;
             }
         }
 
-        return false;
+        return null;
     }
 
-    public void addUser(String name, String password) throws IllegalBlockSizeException, BadPaddingException, IOException {
+    public void addUser(String name, String password, UserRole role) throws IllegalBlockSizeException, BadPaddingException, IOException {
         // Регистрируем пользователя в системе
         byte[] encryptedPasswordBytes = encryptCipher.doFinal(password.getBytes(StandardCharsets.UTF_8));
-        userDao.save(new User(name, Base64.getEncoder().encodeToString(encryptedPasswordBytes)));
+        userDao.save(new User(name, Base64.getEncoder().encodeToString(encryptedPasswordBytes), role));
     }
 }
