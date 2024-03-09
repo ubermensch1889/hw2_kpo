@@ -22,7 +22,7 @@ public class AddMealToOrderDialog extends DialogOption {
     }
     @Override
     public void run() throws IOException {
-        String choice = null;
+        String choice;
         do {
             Dao<Meal> dao = new MealDao("data" + File.separator + "meal.json");
             List<Meal> meals = dao.getAll();

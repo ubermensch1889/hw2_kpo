@@ -12,7 +12,7 @@ public class Order {
     private boolean cancelled = false;
     private boolean payed = false;
 
-    private OrderThread thread = new OrderThread(this);
+    private final OrderThread thread = new OrderThread(this);
 
     public Order(Map<Meal, Integer> mealIntegerMap, User customer) {
         this.mealIntegerMap = mealIntegerMap;

@@ -3,9 +3,9 @@ package homework.model;
 import java.util.Objects;
 
 public class User {
-    private String name;
-    private String encryptedPassword;
-    private UserRole role;
+    private final String name;
+    private final String encryptedPassword;
+    private final UserRole role;
 
     public User(String name, String encryptedPassword, UserRole userRole) {
         this.name = name;

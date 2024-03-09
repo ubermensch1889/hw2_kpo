@@ -1,10 +1,6 @@
 package homework;
 
-import de.vandermeer.asciitable.AsciiTable;
-import homework.dao.Dao;
 import homework.dialog.StartDialog;
-import homework.model.User;
-import homework.model.UserRole;
 
 import javax.crypto.NoSuchPaddingException;
 import java.io.BufferedReader;
@@ -14,11 +10,6 @@ import java.io.InputStreamReader;
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.time.format.DateTimeParseException;
-import java.util.List;
-import java.util.Objects;
 
 public class ConsoleApp {
 

@@ -22,7 +22,6 @@ public class RevenueManager {
 
             writer.close();
         } catch (IOException ignored) {
-            System.out.println(ignored);
         }
     }
 

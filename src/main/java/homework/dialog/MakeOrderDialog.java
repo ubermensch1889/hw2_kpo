@@ -12,8 +12,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
-import java.util.stream.Collectors;
-
 public class MakeOrderDialog extends DialogOption {
     private final User user;
     public MakeOrderDialog(BufferedReader reader, RegisterSystem rs, User user) {
@@ -23,7 +21,7 @@ public class MakeOrderDialog extends DialogOption {
 
     @Override
     public void run() throws IOException {
-        String choice = null;
+        String choice;
         Map<Meal, Integer> map = new HashMap<>();
         do {
             List<Order> orders = OrderManager.getInstance()

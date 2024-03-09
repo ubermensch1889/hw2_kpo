@@ -4,45 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="add classes from previous hw and some new data classes">
-      <change afterPath="$PROJECT_DIR$/data/key.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/meal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/revenue.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/MealThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/OrderManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/OrderThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/RevenueManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/AddMealDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/AddMealToOrderDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/AdministratorMenuDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/CancelOrderDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ChangeMealDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/CustumerMenuDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/DeleteMealDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/DialogOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/MakeOrderDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/PayDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ReturnToStartMenuDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ShowOrderStatusDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ShowRevenueDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/SignInDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/SignUpDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/StartDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/model/Meal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/homework/model/User.java" afterDir="false" />
+    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="add thread logic and singletons for data managing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ConsoleApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/RegisterSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dao/Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/MealDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dao/MealDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Meal.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserRole.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/UserRole.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ConsoleApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +112,7 @@
       <workItem from="1709627726715" duration="7049000" />
       <workItem from="1709637484997" duration="5207000" />
       <workItem from="1709883267896" duration="9677000" />
-      <workItem from="1709904152467" duration="12606000" />
+      <workItem from="1709904152467" duration="12917000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил классы для работы с бд">
       <option name="closed" value="true" />
@@ -166,7 +130,31 @@
       <option name="project" value="LOCAL" />
       <updated>1709629337670</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add dialog system">
+      <option name="closed" value="true" />
+      <created>1709975011331</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709975011331</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add models and daos">
+      <option name="closed" value="true" />
+      <created>1709975077801</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709975077801</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add thread logic and singletons for data managing">
+      <option name="closed" value="true" />
+      <created>1709975119441</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709975119441</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +186,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил классы для работы с бд" />
     <MESSAGE value="add classes from previous hw and some new data classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add classes from previous hw and some new data classes" />
+    <MESSAGE value="add dialog system" />
+    <MESSAGE value="add models and daos" />
+    <MESSAGE value="add thread logic and singletons for data managing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add thread logic and singletons for data managing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

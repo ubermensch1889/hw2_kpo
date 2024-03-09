@@ -1,7 +1,6 @@
 package homework.dialog;
 
 import homework.RegisterSystem;
-import homework.model.User;
 import homework.model.UserRole;
 
 import java.io.BufferedReader;
