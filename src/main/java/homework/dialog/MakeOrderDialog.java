@@ -34,6 +34,11 @@ public class MakeOrderDialog extends DialogOption {
                         System.out.println("You have already ordered something!");
                         return;
                     }
+
+                    if (!order.isCancelled() && !order.isPayed()) {
+                        System.out.println("You haven't payed for previous order yet!");
+                        return;
+                    }
                 }
             }
 
