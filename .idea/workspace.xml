@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="fixed some warnings">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/dialog/MakeOrderDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/MakeOrderDialog.java" afterDir="false" />
-    </list>
+    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="add readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +126,7 @@
       <workItem from="1709627726715" duration="7049000" />
       <workItem from="1709637484997" duration="5207000" />
       <workItem from="1709883267896" duration="9677000" />
-      <workItem from="1709904152467" duration="13889000" />
+      <workItem from="1709904152467" duration="14343000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил классы для работы с бд">
       <option name="closed" value="true" />
@@ -180,7 +176,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709975445355</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change dialog for making order to prevent user from making order before paying for previous">
+      <option name="closed" value="true" />
+      <created>1709976591764</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709976591764</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add readme">
+      <option name="closed" value="true" />
+      <created>1709976609396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709976609396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +228,9 @@
     <MESSAGE value="add models and daos" />
     <MESSAGE value="add thread logic and singletons for data managing" />
     <MESSAGE value="fixed some warnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed some warnings" />
+    <MESSAGE value="change dialog for making order to prevent user from making order before paying for previous" />
+    <MESSAGE value="add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="add readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

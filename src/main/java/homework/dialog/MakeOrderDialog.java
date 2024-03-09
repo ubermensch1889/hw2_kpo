@@ -46,6 +46,11 @@ public class MakeOrderDialog extends DialogOption {
             Dao<Meal> dao = new MealDao("data" + File.separator + "meal.json");
             List<Meal> meals = dao.getAll();
 
+            if (meals.isEmpty()) {
+                System.out.println("Menu is empty.");
+                return;
+            }
+
             System.out.println("Menu:");
             for (int i = 0; i < meals.size(); ++i) {
                 System.out.printf("%d - %s%n", i + 1, meals.get(i).toString());
