@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="add thread logic and singletons for data managing">
+    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="fixed some warnings">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/dialog/MakeOrderDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/MakeOrderDialog.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +31,23 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ubermensch1889"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9d2a1f44-8d1a-435f-8ead-deb2ced2665b" />
+        <option name="url" value="https://github.com/ubermensch1889/hw2_kpo.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -112,7 +130,7 @@
       <workItem from="1709627726715" duration="7049000" />
       <workItem from="1709637484997" duration="5207000" />
       <workItem from="1709883267896" duration="9677000" />
-      <workItem from="1709904152467" duration="12917000" />
+      <workItem from="1709904152467" duration="13889000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил классы для работы с бд">
       <option name="closed" value="true" />
@@ -154,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709975119441</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fixed some warnings">
+      <option name="closed" value="true" />
+      <created>1709975445355</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709975445355</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +215,8 @@
     <MESSAGE value="add dialog system" />
     <MESSAGE value="add models and daos" />
     <MESSAGE value="add thread logic and singletons for data managing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add thread logic and singletons for data managing" />
+    <MESSAGE value="fixed some warnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed some warnings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
