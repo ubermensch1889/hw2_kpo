@@ -4,18 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="Добавил классы для работы с бд">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConsoleApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegisterSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/MealDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Meal.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/UserRole.kt" afterDir="false" />
+    <list default="true" id="6c2fbf37-a844-4e18-85b3-df1f1602d773" name="Changes" comment="add classes from previous hw and some new data classes">
+      <change afterPath="$PROJECT_DIR$/data/key.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/meal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/revenue.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/MealThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/OrderThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/RevenueManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/AddMealDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/AddMealToOrderDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/AdministratorMenuDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/CancelOrderDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ChangeMealDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/CustumerMenuDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/DeleteMealDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/DialogOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/MakeOrderDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/PayDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ReturnToStartMenuDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ShowOrderStatusDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/ShowRevenueDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/SignInDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/SignUpDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/dialog/StartDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/model/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/model/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/homework/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConsoleApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/ConsoleApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegisterSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/RegisterSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/MealDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dao/MealDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Meal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/User.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserRole.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/homework/model/UserRole.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,27 +78,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Redmibook14/Desktop/Учеба/КПО/hw1_kpo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Redmibook14/Desktop/Учеба/КПО/hw2_kpo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework.dialog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Redmibook14\Desktop\Учеба\КПО\hw2_kpo" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Main" />
+      <module name="hw2_kpo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -90,7 +145,10 @@
       <updated>1708432547385</updated>
       <workItem from="1708432548500" duration="1098000" />
       <workItem from="1708433659611" duration="2121000" />
-      <workItem from="1709627726715" duration="1427000" />
+      <workItem from="1709627726715" duration="7049000" />
+      <workItem from="1709637484997" duration="5207000" />
+      <workItem from="1709883267896" duration="9677000" />
+      <workItem from="1709904152467" duration="12606000" />
     </task>
     <task id="LOCAL-00001" summary="Добавил классы для работы с бд">
       <option name="closed" value="true" />
@@ -100,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708433355171</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add classes from previous hw and some new data classes">
+      <option name="closed" value="true" />
+      <created>1709629337670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709629337670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +197,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавил классы для работы с бд" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил классы для работы с бд" />
+    <MESSAGE value="add classes from previous hw and some new data classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add classes from previous hw and some new data classes" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/homework/MealThread.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

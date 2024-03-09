@@ -1,16 +1,16 @@
-package dao;
+package homework.dao;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import model.User;
+import homework.model.User;
 
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-// Класс для управления информацией о блюдах
-public class MealDao implements Dao<User>{
+// Класс для управления информацией о пользователях
+public class UserDao implements Dao<User>{
     private final Gson gson;
     private final String path;
     private List<User> users;
@@ -24,7 +24,7 @@ public class MealDao implements Dao<User>{
         writer.close();
     }
 
-    public MealDao(String path) {
+    public UserDao(String path) {
         this.path = path;
         GsonBuilder builder = new GsonBuilder();
         gson = builder.create();
